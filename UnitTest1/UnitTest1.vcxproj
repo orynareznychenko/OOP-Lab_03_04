@@ -89,7 +89,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
       <AdditionalIncludeDirectories>$(VCInstallDir)UnitTest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -156,6 +156,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\ООП_РІ-13_Резниченко_ЛР-3.4\DecString.cpp" />
+    <ClCompile Include="..\ООП_РІ-13_Резниченко_ЛР-3.4\Factory.cpp" />
+    <ClCompile Include="..\ООП_РІ-13_Резниченко_ЛР-3.4\SymString.cpp" />
+    <ClCompile Include="..\ООП_РІ-13_Резниченко_ЛР-3.4\ООП_РІ-13_Резниченко_ЛР-3.4.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -165,11 +169,14 @@
     <ClCompile Include="UnitTest1.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\ООП_РІ-13_Резниченко_ЛР-3.4\DecString.h" />
+    <ClInclude Include="..\ООП_РІ-13_Резниченко_ЛР-3.4\Factory.h" />
+    <ClInclude Include="..\ООП_РІ-13_Резниченко_ЛР-3.4\SymString.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ООП_РІ-13_Резниченко_ЛР-3.4\ООП_РІ-13_Резниченко_ЛР-3.4.vcxproj">
-      <Project>{32aedf7e-47b7-4149-82da-b9ba81999d42}</Project>
+      <Project>{e8deb62b-03ad-47e3-8210-b61d8b2e9a6e}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -18,5 +18,25 @@
     <ClCompile Include="ООП_РІ-13_Резниченко_ЛР-3.4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SymString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DecString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SymString.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DecString.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

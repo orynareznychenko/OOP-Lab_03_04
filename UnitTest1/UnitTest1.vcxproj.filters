@@ -21,10 +21,31 @@
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\ООП_РІ-13_Резниченко_ЛР-3.4\DecString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ООП_РІ-13_Резниченко_ЛР-3.4\Factory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ООП_РІ-13_Резниченко_ЛР-3.4\SymString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ООП_РІ-13_Резниченко_ЛР-3.4\ООП_РІ-13_Резниченко_ЛР-3.4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ООП_РІ-13_Резниченко_ЛР-3.4\DecString.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ООП_РІ-13_Резниченко_ЛР-3.4\Factory.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ООП_РІ-13_Резниченко_ЛР-3.4\SymString.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

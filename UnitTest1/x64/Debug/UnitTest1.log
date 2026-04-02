@@ -1,4 +1,9 @@
 ﻿  pch.cpp
+  DecString.cpp
+  Factory.cpp
+  SymString.cpp
+  ООП_РІ-13_Резниченко_ЛР-3.4.cpp
   UnitTest1.cpp
+  Generating Code...
      Creating library D:\2 семестр\ООП\ЛР 3\ООП_РІ-13_Резниченко_ЛР-3.4\x64\Debug\UnitTest1.lib and object D:\2 семестр\ООП\ЛР 3\ООП_РІ-13_Резниченко_ЛР-3.4\x64\Debug\UnitTest1.exp
   UnitTest1.vcxproj -> D:\2 семестр\ООП\ЛР 3\ООП_РІ-13_Резниченко_ЛР-3.4\x64\Debug\UnitTest1.dll

@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{32aedf7e-47b7-4149-82da-b9ba81999d42}</ProjectGuid>
+    <ProjectGuid>{e8deb62b-03ad-47e3-8210-b61d8b2e9a6e}</ProjectGuid>
     <RootNamespace>ООПРІ13РезниченкоЛР34</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -127,7 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DecString.cpp" />
+    <ClCompile Include="Factory.cpp" />
+    <ClCompile Include="SymString.cpp" />
     <ClCompile Include="ООП_РІ-13_Резниченко_ЛР-3.4.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SymString.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DecString.h" />
+    <ClInclude Include="Factory.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
